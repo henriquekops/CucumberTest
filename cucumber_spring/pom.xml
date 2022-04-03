@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hellocucumber</groupId>
-    <artifactId>hellocucumber</artifactId>
+    <groupId>cucumber_spring</groupId>
+    <artifactId>cucumber_spring</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -71,14 +71,6 @@
             <version>6.0.0</version>
             <scope>test</scope>
         </dependency>
-
-        <!-- JUnit dependencies
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency> -->
     </dependencies>
 
     <build>

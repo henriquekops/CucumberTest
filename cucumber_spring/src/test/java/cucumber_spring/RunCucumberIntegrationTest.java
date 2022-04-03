@@ -1,4 +1,4 @@
-package hellocucumber;
+package cucumber_spring;
 
 import org.junit.runner.RunWith;
 
@@ -10,10 +10,10 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 	plugin = {
 		"pretty",
-		"html:target/cucumber/hellocucumber"
+		"html:target/cucumber/cucumber_spring"
 	},
 	tags = "",
 	features = "src/test/resources/features",
-	glue = "hellocucumber.steps"
+	glue = "cucumber_spring.steps"
 )
 public class RunCucumberIntegrationTest {}

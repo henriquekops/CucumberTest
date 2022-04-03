@@ -1,4 +1,4 @@
-package hellocucumber.resources;
+package cucumber_spring.resources;
 
 public class Greeting {
 	

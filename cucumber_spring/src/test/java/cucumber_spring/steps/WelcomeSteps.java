@@ -1,4 +1,4 @@
-package hellocucumber.steps;
+package cucumber_spring.steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

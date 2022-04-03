@@ -1,8 +1,8 @@
-package hellocucumber.steps;
+package cucumber_spring.steps;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
-import hellocucumber.Main;
+import cucumber_spring.Main;
 import io.cucumber.spring.CucumberContextConfiguration;
 
 @CucumberContextConfiguration
