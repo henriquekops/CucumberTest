@@ -1,9 +1,10 @@
 {
-  "name": "my-app",
+  "name": "testing-react-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
@@ -13,8 +14,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject",
-    "test": "jest"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -35,8 +36,6 @@
     ]
   },
   "devDependencies": {
-    "@testing-library/react": "^12.1.4",
-    "jest": "^27.5.1",
-    "react-test-renderer": "^18.0.0"
+    "jest-watch-typeahead": "^0.6.5"
   }
 }
