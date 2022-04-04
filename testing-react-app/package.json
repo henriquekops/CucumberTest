@@ -35,7 +35,9 @@
     ]
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^7.3.2",
     "@testing-library/react": "^12.1.4",
+    "jest-cucumber": "^3.0.1",
     "jest-watch-typeahead": "^0.6.5",
     "react-test-renderer": "^18.0.0"
   }
